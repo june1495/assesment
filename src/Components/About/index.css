@@ -82,3 +82,6 @@ p {
   background: var(--black);
   color: var(--white);
 }
+.mail {
+  padding-top: 10px;
+}

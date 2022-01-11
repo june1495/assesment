@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 import './index.css';
 
@@ -13,7 +14,8 @@ const About = () => (
         />
       </div>
       <h3>Franco Melgar</h3>
-      <p>I&apos;m a Creative Frond End Web Developer</p>
+      <p>Software Developer</p>
+      <p>I&apos;ve learned React, Flexbox , Node(building an API)</p>
       <ul className="socialMedia">
         <li>
           <a
@@ -34,6 +36,9 @@ const About = () => (
           </a>
         </li>
       </ul>
+      <div className="mail">
+        <FontAwesomeIcon icon={faEnvelope} /> francomelgar4@gmail.com
+      </div>
     </div>
   </section>
 );
